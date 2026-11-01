@@ -1,0 +1,19 @@
+qid,query,jenis,relevant_docs,kriteria_relevansi
+Q1,ritual pemakaman suku toraja,umum,D22;D23;D30;D43;D177,Artikel yang membahas ritual kematian/pemakaman atau penghormatan jenazah leluhur suku Toraja
+Q2,rumah adat tradisional,umum,D29;D31;D36;D40;D65;D72;D77;D126;D130;D134;D150;D151;D152;D159;D161;D169;D174,Artikel yang topik utamanya sebuah rumah adat/rumah tradisional suatu daerah
+Q3,kain batik dan motifnya,umum,D262;D269;D273;D276;D277;D279;D312;D330;D364;D411;D422;D516,Artikel yang topik utamanya batik (kain/motif/kerajinan batik); tarian bernama Batik tidak termasuk
+Q4,pertunjukan wayang,umum,D267;D281;D295;D304;D305;D348;D373;D423;D429,Artikel yang topik utamanya wayang (jenis wayang atau pementasannya)
+Q5,cerita rakyat papua,umum,D178;D208;D231,Artikel cerita rakyat/legenda yang berasal dari Papua
+Q6,kain tenun tradisional,umum,D63;D66;D123;D124;D129;D257;D258;D291;D298;D360;D397;D415;D417;D446;D481;D493;D514,Artikel yang topik utamanya kain tenun/songket/kain tradisional hasil tenun
+Q7,tari tradisional bali,umum,D263;D266;D322;D323;D324;D325;D326;D327;D328;D329;D382;D383,Artikel yang membahas tarian atau seni pertunjukan tari dari Bali
+Q8,pakaian adat,umum,D62;D63;D122;D127;D166;D167;D168,Artikel yang topik utamanya pakaian/baju adat suatu suku atau daerah
+Q9,upacara pernikahan adat,umum,D34;D45;D69;D91;D136,Artikel yang topik utamanya tradisi atau prosesi pernikahan adat
+Q10,senjata tradisional,umum,D35;D49;D61;D116;D131;D172;D260;D287;D350;D451;D477,Artikel yang topik utamanya senjata tradisional (bukan tarian yang memakai senjata)
+Q11,tari topeng,umum,D271;D296;D313;D322;D323;D336;D370;D399;D449;D471;D498,Artikel yang membahas tari atau seni pertunjukan yang memakai topeng
+Q12,permainan tradisional anak,umum,D80;D83;D101;D132;D318;D389;D390;D402;D407;D408,Artikel yang topik utamanya permainan tradisional
+Q13,angklung,pendek_spesifik,D274;D289;D403,Artikel yang topik utamanya alat musik angklung
+Q14,reog,pendek_spesifik,D255;D343;D376;D461,Artikel yang topik utamanya kesenian reog
+Q15,gamelan,pendek_spesifik,D283;D306;D424;D428;D456;D457;D458,Artikel yang topik utamanya gamelan
+Q16,calung,pendek_spesifik,D280;D300;D418,Artikel yang topik utamanya alat musik calung
+Q17,gelung,pendek_spesifik,D6;D7;D8;D9;D10;D11;D12;D13;D14;D15;D16,Artikel yang topik utamanya gelung/sanggul tradisional
+Q18,ondel ondel,pendek_spesifik,D25;D79,Artikel yang topik utamanya ondel-ondel Betawi

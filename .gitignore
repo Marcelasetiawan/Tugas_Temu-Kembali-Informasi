@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Laporan dikumpulkan terpisah (berisi data pribadi)
+Laporan_*.docx
+Laporan_*.pdf
+~$*
+
+# Pintasan lokal (berisi jalur Python di komputer pribadi)
+cari.bat

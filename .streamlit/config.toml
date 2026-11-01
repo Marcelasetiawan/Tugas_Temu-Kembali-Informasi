@@ -1,0 +1,36 @@
+# Tema dashboard: sidebar biru, konten terang dengan kartu putih
+
+[theme]
+base = "light"
+primaryColor = "#1E4FD8"               # biru: tombol, tab aktif, slider, tautan
+backgroundColor = "#FFFFFF"            # putih (latar kartu & grafik); latar halaman diatur di src/ui.py
+secondaryBackgroundColor = "#E9EEF8"   # latar input dan widget
+textColor = "#16213E"
+borderColor = "#E4EAF5"
+linkColor = "#1E4FD8"
+linkUnderline = false
+
+font = "'Plus Jakarta Sans':https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
+headingFont = "'Plus Jakarta Sans':https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@600;700;800&display=swap"
+baseRadius = "large"
+showSidebarBorder = false
+
+greenColor = "#16A34A"
+redColor = "#E05A47"
+blueColor = "#1E4FD8"
+orangeColor = "#EA6A35"
+violetColor = "#5B3FC4"
+grayColor = "#6B7590"
+
+# Grafik: biru, oranye, hijau, kuning, merah muda, ungu
+chartCategoricalColors = ["#2563EB", "#EA6A35", "#21A876", "#F2B01E", "#E5739D", "#5B3FC4"]
+
+dataframeHeaderBackgroundColor = "#EEF2FA"
+dataframeBorderColor = "#E4EAF5"
+
+[theme.sidebar]
+backgroundColor = "#1E4FD8"
+secondaryBackgroundColor = "#2F5FE0"
+textColor = "#FFFFFF"
+primaryColor = "#FFFFFF"
+borderColor = "#3A68E3"

@@ -1,0 +1,355 @@
+﻿qid,query,metode,peringkat,doc_id,judul,skor,relevan
+Q1,ritual pemakaman suku toraja,TF-IDF,1,D43,Menyaksikan Kemegahan Pemakaman Tebing Khas Toraja di Londa dan Lemo,0.3906,✓
+Q1,ritual pemakaman suku toraja,TF-IDF,2,D22,Passiliran: Pemakaman Bayi di Dalam Pohon Khas Tana Toraja,0.3826,✓
+Q1,ritual pemakaman suku toraja,TF-IDF,3,D23,"Menyusuri Bukit Batu Lemo, Kuburan Alam Suku Toraja",0.3785,✓
+Q1,ritual pemakaman suku toraja,TF-IDF,4,D30,"Rambu Solo, Ritual Kematian Suku Toraja yang Sakral",0.3688,✓
+Q1,ritual pemakaman suku toraja,TF-IDF,5,D177,"Ma’nene, Cara Orang Toraja Mengenang Leluhurnya",0.3397,✓
+Q1,ritual pemakaman suku toraja,TF-IDF,6,D107,"Ngembang, Bentuk Penghormatan kepada Leluhur",0.2923,
+Q1,ritual pemakaman suku toraja,TF-IDF,7,D481,"Paramba, Kain Khas Toraja dengan Warna-Warna Cerah",0.1972,
+Q1,ritual pemakaman suku toraja,TF-IDF,8,D421,Tari Batingna Lebonna dan Legenda Asal-Usul dari Tana Toraja,0.1603,
+Q1,ritual pemakaman suku toraja,TF-IDF,9,D112,"Seren Taun, Tradisi Panen Raya Penuh Makna di Sindang Barang",0.0974,
+Q1,ritual pemakaman suku toraja,TF-IDF,10,D171,Menggali Kekayaan Tradisi Suku Naulu di Era Modern,0.0786,
+Q1,ritual pemakaman suku toraja,BM25,1,D30,"Rambu Solo, Ritual Kematian Suku Toraja yang Sakral",17.8941,✓
+Q1,ritual pemakaman suku toraja,BM25,2,D23,"Menyusuri Bukit Batu Lemo, Kuburan Alam Suku Toraja",17.5226,✓
+Q1,ritual pemakaman suku toraja,BM25,3,D43,Menyaksikan Kemegahan Pemakaman Tebing Khas Toraja di Londa dan Lemo,17.2317,✓
+Q1,ritual pemakaman suku toraja,BM25,4,D22,Passiliran: Pemakaman Bayi di Dalam Pohon Khas Tana Toraja,15.9649,✓
+Q1,ritual pemakaman suku toraja,BM25,5,D177,"Ma’nene, Cara Orang Toraja Mengenang Leluhurnya",13.2532,✓
+Q1,ritual pemakaman suku toraja,BM25,6,D421,Tari Batingna Lebonna dan Legenda Asal-Usul dari Tana Toraja,9.2946,
+Q1,ritual pemakaman suku toraja,BM25,7,D107,"Ngembang, Bentuk Penghormatan kepada Leluhur",9.2722,
+Q1,ritual pemakaman suku toraja,BM25,8,D2,Muwon Namo: Ritual Memohon Hujan ala Suku Batin IX di Jambi,8.2398,
+Q1,ritual pemakaman suku toraja,BM25,9,D112,"Seren Taun, Tradisi Panen Raya Penuh Makna di Sindang Barang",7.9108,
+Q1,ritual pemakaman suku toraja,BM25,10,D481,"Paramba, Kain Khas Toraja dengan Warna-Warna Cerah",7.6186,
+Q2,rumah adat tradisional,TF-IDF,1,D126,"Sulah Nyanda, Rumah dengan Konsep Aturan Adat Khas Suku Baduy",0.3304,✓
+Q2,rumah adat tradisional,TF-IDF,2,D29,Melihat Lebih Dekat Arsitektur Eropa di Rumah Tradisional Betawi,0.301,✓
+Q2,rumah adat tradisional,TF-IDF,3,D65,Rumah Adat Kebanggaan Masyarakat Negeri Laskar Pelangi,0.2955,✓
+Q2,rumah adat tradisional,TF-IDF,4,D152,"Rumah Kaki Seribu, Arsitektur Mengagumkan dari Tanah Papua",0.2919,✓
+Q2,rumah adat tradisional,TF-IDF,5,D151,"Rumah Ulu, Rumah Tradisional Sumatra Selatan Sarat Filosofi",0.2895,✓
+Q2,rumah adat tradisional,TF-IDF,6,D36,"Rumah Gadang, Arsitektur yang Menjadi Wajah Minangkabau",0.2687,✓
+Q2,rumah adat tradisional,TF-IDF,7,D130,"Rumah Baghi, Rumah Tradisional Besemah yang Kaya Filosofi",0.2662,✓
+Q2,rumah adat tradisional,TF-IDF,8,D40,Menilik Keunikan Rumah Sessat Khas Lampung,0.2448,✓
+Q2,rumah adat tradisional,TF-IDF,9,D72,"Rumah Adat Selat Nasik, Pesona Hunian Pesisir Belitung",0.2243,✓
+Q2,rumah adat tradisional,TF-IDF,10,D134,"Rumah Limas, Rumah Kayu dan Status Sosial di Sumatra Selatan",0.2084,✓
+Q2,rumah adat tradisional,BM25,1,D31,"Membedah Rumah Adat Tradisional Suku Bugis, Sulawesi Selatan",5.4566,✓
+Q2,rumah adat tradisional,BM25,2,D130,"Rumah Baghi, Rumah Tradisional Besemah yang Kaya Filosofi",5.4283,✓
+Q2,rumah adat tradisional,BM25,3,D169,"Rumah Baileo, Wujud Cinta Suku Huaulu terhadap Alam",5.3504,✓
+Q2,rumah adat tradisional,BM25,4,D152,"Rumah Kaki Seribu, Arsitektur Mengagumkan dari Tanah Papua",5.2758,✓
+Q2,rumah adat tradisional,BM25,5,D77,"Rumoh Aceh, Rumah Adat yang Sarat Nilai Estetis dan Filosofis",5.2481,✓
+Q2,rumah adat tradisional,BM25,6,D174,Mengunjungi Rumah Adat Banjar Ratusan Tahun di Martapura,5.0883,✓
+Q2,rumah adat tradisional,BM25,7,D36,"Rumah Gadang, Arsitektur yang Menjadi Wajah Minangkabau",5.0469,✓
+Q2,rumah adat tradisional,BM25,8,D40,Menilik Keunikan Rumah Sessat Khas Lampung,4.9858,✓
+Q2,rumah adat tradisional,BM25,9,D134,"Rumah Limas, Rumah Kayu dan Status Sosial di Sumatra Selatan",4.7458,✓
+Q2,rumah adat tradisional,BM25,10,D161,"Rumah Betang, Jantung Tradisi dan Identitas Dayak Kanayat'n",4.6445,✓
+Q3,kain batik dan motifnya,TF-IDF,1,D269,"Perjalanan Batik Solo, Warisan Keraton dalam Industri Kreatif",0.688,✓
+Q3,kain batik dan motifnya,TF-IDF,2,D273,Menelusuri Lenggak-lenggok Batik Khas Betawi,0.6469,✓
+Q3,kain batik dan motifnya,TF-IDF,3,D262,Menilik Keindahan Warna-warni Batik Jambi,0.6081,✓
+Q3,kain batik dan motifnya,TF-IDF,4,D330,Pesona Batik Garut dengan Kekayaan Motifnya,0.5968,✓
+Q3,kain batik dan motifnya,TF-IDF,5,D364,"Jejak Batik Nusantara, Dari Keraton ke Pengakuan UNESCO",0.5894,✓
+Q3,kain batik dan motifnya,TF-IDF,6,D277,"Batik Pekalongan, Warisan Pesisir dengan Jejak Budaya Dunia",0.5723,✓
+Q3,kain batik dan motifnya,TF-IDF,7,D312,Batik Sasambo: Legenda Putri Mandalika dalam Balutan Kain NTB,0.5435,✓
+Q3,kain batik dan motifnya,TF-IDF,8,D411,"Batik Cirebon, Lebih dari Sekadar Mega Mendung",0.5418,✓
+Q3,kain batik dan motifnya,TF-IDF,9,D516,"Batik Tubo Ternate, Warisan Rempah Maluku pada Kain Nusantara",0.4965,✓
+Q3,kain batik dan motifnya,TF-IDF,10,D276,"Batik Garut, Persembahan dari Swiss Van Java",0.4723,✓
+Q3,kain batik dan motifnya,BM25,1,D262,Menilik Keindahan Warna-warni Batik Jambi,12.4681,✓
+Q3,kain batik dan motifnya,BM25,2,D516,"Batik Tubo Ternate, Warisan Rempah Maluku pada Kain Nusantara",12.3724,✓
+Q3,kain batik dan motifnya,BM25,3,D312,Batik Sasambo: Legenda Putri Mandalika dalam Balutan Kain NTB,12.1245,✓
+Q3,kain batik dan motifnya,BM25,4,D364,"Jejak Batik Nusantara, Dari Keraton ke Pengakuan UNESCO",12.1036,✓
+Q3,kain batik dan motifnya,BM25,5,D273,Menelusuri Lenggak-lenggok Batik Khas Betawi,11.8337,✓
+Q3,kain batik dan motifnya,BM25,6,D277,"Batik Pekalongan, Warisan Pesisir dengan Jejak Budaya Dunia",11.6307,✓
+Q3,kain batik dan motifnya,BM25,7,D330,Pesona Batik Garut dengan Kekayaan Motifnya,11.4918,✓
+Q3,kain batik dan motifnya,BM25,8,D269,"Perjalanan Batik Solo, Warisan Keraton dalam Industri Kreatif",11.4542,✓
+Q3,kain batik dan motifnya,BM25,9,D411,"Batik Cirebon, Lebih dari Sekadar Mega Mendung",11.4536,✓
+Q3,kain batik dan motifnya,BM25,10,D39,"Totopong, Tutup Kepala ala Kabayan",10.81,
+Q4,pertunjukan wayang,TF-IDF,1,D348,Babak Baru Pementasan Wayang di Jawa Tengah,0.8198,✓
+Q4,pertunjukan wayang,TF-IDF,2,D373,Melukis Kulit Kerbau Menjadi Kerajinan Wayang Kulit,0.8039,✓
+Q4,pertunjukan wayang,TF-IDF,3,D305,Wayang Kulit: Kearifan Jawa yang Mendunia dan Diakui UNESCO,0.6514,✓
+Q4,pertunjukan wayang,TF-IDF,4,D267,"Wayang Orang, dari Seni Adiluhung hingga Seni Panggung",0.646,✓
+Q4,pertunjukan wayang,TF-IDF,5,D423,Membuat Wayang Kulit: Proses Panjang Penuh Ketelitian,0.6179,✓
+Q4,pertunjukan wayang,TF-IDF,6,D429,Wayang Golek Betawi: Wayang Sunda Rasa Lenong,0.4596,✓
+Q4,pertunjukan wayang,TF-IDF,7,D304,"Wayang Potehi, Persenyawaan Budaya Tionghoa dan Nusantara",0.4398,✓
+Q4,pertunjukan wayang,TF-IDF,8,D281,"Wayang Golek, Boneka Kayu Penutur Nilai Hidup Leluhur Sunda",0.321,✓
+Q4,pertunjukan wayang,TF-IDF,9,D295,"Wayang Timplong, Jejak Budaya Nganjuk yang Terancam Punah",0.3015,✓
+Q4,pertunjukan wayang,TF-IDF,10,D283,"Gamelan, Kesenian Adiluhung dari Jawa",0.1199,
+Q4,pertunjukan wayang,BM25,1,D267,"Wayang Orang, dari Seni Adiluhung hingga Seni Panggung",7.2275,✓
+Q4,pertunjukan wayang,BM25,2,D305,Wayang Kulit: Kearifan Jawa yang Mendunia dan Diakui UNESCO,7.1534,✓
+Q4,pertunjukan wayang,BM25,3,D429,Wayang Golek Betawi: Wayang Sunda Rasa Lenong,7.1048,✓
+Q4,pertunjukan wayang,BM25,4,D304,"Wayang Potehi, Persenyawaan Budaya Tionghoa dan Nusantara",7.0863,✓
+Q4,pertunjukan wayang,BM25,5,D373,Melukis Kulit Kerbau Menjadi Kerajinan Wayang Kulit,7.0401,✓
+Q4,pertunjukan wayang,BM25,6,D423,Membuat Wayang Kulit: Proses Panjang Penuh Ketelitian,7.0125,✓
+Q4,pertunjukan wayang,BM25,7,D295,"Wayang Timplong, Jejak Budaya Nganjuk yang Terancam Punah",6.8073,✓
+Q4,pertunjukan wayang,BM25,8,D281,"Wayang Golek, Boneka Kayu Penutur Nilai Hidup Leluhur Sunda",6.8019,✓
+Q4,pertunjukan wayang,BM25,9,D348,Babak Baru Pementasan Wayang di Jawa Tengah,6.6059,✓
+Q4,pertunjukan wayang,BM25,10,D285,Percampuran Tari dan Teater dalam Kesenian Damarwulan,5.5792,
+Q5,cerita rakyat papua,TF-IDF,1,D12,Gelung Papua: Simbol Keanggunan dan Kreativitas dari Bumi Cenderawasih,0.4327,
+Q5,cerita rakyat papua,TF-IDF,2,D139,Kecantikan Wanita dalam Anyaman Rambut Khas Papua,0.3139,
+Q5,cerita rakyat papua,TF-IDF,3,D144,"Mengenal Pinang, ‘Permen’ Masyarakat Papua",0.2206,
+Q5,cerita rakyat papua,TF-IDF,4,D356,"Tari Yospan, Tarian Persahabatan Rakyat Papua",0.1904,
+Q5,cerita rakyat papua,TF-IDF,5,D463,"Tifa Papua, Nada Ritmik Khas Bumi Papua",0.1776,
+Q5,cerita rakyat papua,TF-IDF,6,D261,"Wisata Festival Bahari, di Raja Ampat",0.1578,
+Q5,cerita rakyat papua,TF-IDF,7,D478,Memanggil dengan Merdu Lewat Alat Musik Fuu,0.1534,
+Q5,cerita rakyat papua,TF-IDF,8,D474,"Mengenal Atawenani, Lagu Pengiring Tari Wutukala dari Papua",0.1326,
+Q5,cerita rakyat papua,TF-IDF,9,D152,"Rumah Kaki Seribu, Arsitektur Mengagumkan dari Tanah Papua",0.1057,
+Q5,cerita rakyat papua,TF-IDF,10,D467,"Tari Wutukala, Ekspresi Syukur Nelayan Papua yang Sarat Makna",0.0943,
+Q5,cerita rakyat papua,BM25,1,D208,Cerita Rakyat Papua: Biwar Sang Penakluk Naga,8.6394,✓
+Q5,cerita rakyat papua,BM25,2,D463,"Tifa Papua, Nada Ritmik Khas Bumi Papua",8.0849,
+Q5,cerita rakyat papua,BM25,3,D356,"Tari Yospan, Tarian Persahabatan Rakyat Papua",7.2447,
+Q5,cerita rakyat papua,BM25,4,D12,Gelung Papua: Simbol Keanggunan dan Kreativitas dari Bumi Cenderawasih,7.0278,
+Q5,cerita rakyat papua,BM25,5,D474,"Mengenal Atawenani, Lagu Pengiring Tari Wutukala dari Papua",6.9335,
+Q5,cerita rakyat papua,BM25,6,D231,Cerita Rakyat Papua: Empat Raja,6.7597,✓
+Q5,cerita rakyat papua,BM25,7,D467,"Tari Wutukala, Ekspresi Syukur Nelayan Papua yang Sarat Makna",5.9301,
+Q5,cerita rakyat papua,BM25,8,D319,Seni Patung Asmat: Jenis dan Makna Leluhur di Balik Setiap Ukiran,5.6857,
+Q5,cerita rakyat papua,BM25,9,D178,Cerita Rakyat Papua: Legenda Cabo Pui dan Batu Ajaib,5.5735,✓
+Q5,cerita rakyat papua,BM25,10,D139,Kecantikan Wanita dalam Anyaman Rambut Khas Papua,5.4771,
+Q6,kain tenun tradisional,TF-IDF,1,D514,Mengenal Lebih Dekat Kain Tenun Khas Ternate,0.7824,✓
+Q6,kain tenun tradisional,TF-IDF,2,D258,"Kain Tenun, Warisan Kekayaan Budaya Maluku",0.685,✓
+Q6,kain tenun tradisional,TF-IDF,3,D124,"Tradisi Menenun, Peninggalan Nenek Moyang Suku Baduy",0.5832,✓
+Q6,kain tenun tradisional,TF-IDF,4,D493,Tenun Sambas: Kain Tradisional Kalimantan Barat yang Mendunia,0.5535,✓
+Q6,kain tenun tradisional,TF-IDF,5,D257,"Tenun Gringsing Bali, Kain Dobel Ikat Penuh Makna Spiritual",0.4914,✓
+Q6,kain tenun tradisional,TF-IDF,6,D129,Warna-Warna Khas Kain Tenun Suku Baduy,0.4484,✓
+Q6,kain tenun tradisional,TF-IDF,7,D298,"Songket Pandai Sikek, Ratu Kain Tenun dari Sumatra Barat",0.4243,✓
+Q6,kain tenun tradisional,TF-IDF,8,D446,"Pinawetengan, Kain Tenun dari Motif Batu Leluhur Minahasa",0.4224,✓
+Q6,kain tenun tradisional,TF-IDF,9,D291,"Sarung Tenun Kresesek, Sarung Tenun Khas Negeri Samawa",0.4,✓
+Q6,kain tenun tradisional,TF-IDF,10,D66,Kain Kebat dan Tenun Tradisional dari Suku Dayak Iban,0.2857,✓
+Q6,kain tenun tradisional,BM25,1,D129,Warna-Warna Khas Kain Tenun Suku Baduy,9.5375,✓
+Q6,kain tenun tradisional,BM25,2,D66,Kain Kebat dan Tenun Tradisional dari Suku Dayak Iban,9.52,✓
+Q6,kain tenun tradisional,BM25,3,D124,"Tradisi Menenun, Peninggalan Nenek Moyang Suku Baduy",9.5158,✓
+Q6,kain tenun tradisional,BM25,4,D493,Tenun Sambas: Kain Tradisional Kalimantan Barat yang Mendunia,9.4836,✓
+Q6,kain tenun tradisional,BM25,5,D298,"Songket Pandai Sikek, Ratu Kain Tenun dari Sumatra Barat",9.3806,✓
+Q6,kain tenun tradisional,BM25,6,D514,Mengenal Lebih Dekat Kain Tenun Khas Ternate,9.3629,✓
+Q6,kain tenun tradisional,BM25,7,D258,"Kain Tenun, Warisan Kekayaan Budaya Maluku",9.3598,✓
+Q6,kain tenun tradisional,BM25,8,D257,"Tenun Gringsing Bali, Kain Dobel Ikat Penuh Makna Spiritual",9.3572,✓
+Q6,kain tenun tradisional,BM25,9,D394,Mengapresiasi Keindahan Kain Ikat melalui Tari Sandang Insana,9.1877,
+Q6,kain tenun tradisional,BM25,10,D415,"Ulap Doyo, Kearifan Lokal dalam Tenun Warisan Dayak Benuaq",8.8212,✓
+Q7,tari tradisional bali,TF-IDF,1,D326,"Tari Cenderawasih, Romansa Perpaduan Kasih di Taman Surgawi",0.3674,✓
+Q7,tari tradisional bali,TF-IDF,2,D382,Durga Mahisasura Mardini: Tafsir Kisah Dewi Durga dalam Tari Bali,0.3148,✓
+Q7,tari tradisional bali,TF-IDF,3,D263,Tari Pendet Tari Penyambutan Dewa dan Manusia,0.2757,✓
+Q7,tari tradisional bali,TF-IDF,4,D329,"Tari Baris, Simbol Ketangguhan Prajurit Bali",0.2593,✓
+Q7,tari tradisional bali,TF-IDF,5,D325,"Tari Cilinaya, Perlambang Kecantikan yang Gemulai",0.2369,✓
+Q7,tari tradisional bali,TF-IDF,6,D491,"Rindik, Instrumen Bambu dengan Harmoni Khas Bali",0.2196,
+Q7,tari tradisional bali,TF-IDF,7,D322,"Topeng Bali, Beragam Karakter dalam Seni Pentas Tradisional",0.2158,✓
+Q7,tari tradisional bali,TF-IDF,8,D458,"Gamelan Bali, Ragam Keindahan Selaras Zaman",0.2155,
+Q7,tari tradisional bali,TF-IDF,9,D383,Memaknai Ulang Sosok Calon Arang dalam Sendratari Bali,0.2062,✓
+Q7,tari tradisional bali,TF-IDF,10,D323,"Tari Topeng Tua, Refleksi Lelaki Bali di Usia Senja",0.1855,✓
+Q7,tari tradisional bali,BM25,1,D322,"Topeng Bali, Beragam Karakter dalam Seni Pentas Tradisional",7.3368,✓
+Q7,tari tradisional bali,BM25,2,D491,"Rindik, Instrumen Bambu dengan Harmoni Khas Bali",7.2544,
+Q7,tari tradisional bali,BM25,3,D377,"Periri Sesamungan, Tari Perdamaian dari Tanah Samawa",6.8766,
+Q7,tari tradisional bali,BM25,4,D263,Tari Pendet Tari Penyambutan Dewa dan Manusia,6.8165,✓
+Q7,tari tradisional bali,BM25,5,D325,"Tari Cilinaya, Perlambang Kecantikan yang Gemulai",6.7808,✓
+Q7,tari tradisional bali,BM25,6,D383,Memaknai Ulang Sosok Calon Arang dalam Sendratari Bali,6.7005,✓
+Q7,tari tradisional bali,BM25,7,D323,"Tari Topeng Tua, Refleksi Lelaki Bali di Usia Senja",6.6828,✓
+Q7,tari tradisional bali,BM25,8,D329,"Tari Baris, Simbol Ketangguhan Prajurit Bali",6.6268,✓
+Q7,tari tradisional bali,BM25,9,D266,"Legong Lasem, Tari Klasik Bali yang Melegenda",6.526,✓
+Q7,tari tradisional bali,BM25,10,D382,Durga Mahisasura Mardini: Tafsir Kisah Dewi Durga dalam Tari Bali,6.3334,✓
+Q8,pakaian adat,TF-IDF,1,D168,"Pakaian Adat Ternate, Cermin Kemegahan Kesultanan Masa Lalu",0.2944,✓
+Q8,pakaian adat,TF-IDF,2,D167,"Keunikan Baju Cele, Pakaian Adat Tradisional dari Maluku",0.2741,✓
+Q8,pakaian adat,TF-IDF,3,D62,Pakaian Adat Suku Asmat: Antara Alam dan Manusia Sejati,0.1646,✓
+Q8,pakaian adat,TF-IDF,4,D127,Kesederhanaan dan Nilai Luhur dalam Pakaian Adat Suku Baduy,0.1567,✓
+Q8,pakaian adat,TF-IDF,5,D126,"Sulah Nyanda, Rumah dengan Konsep Aturan Adat Khas Suku Baduy",0.1149,
+Q8,pakaian adat,TF-IDF,6,D21,"Upacara Adat Beluluh, Simbol Harapan Orang Tua",0.1063,
+Q8,pakaian adat,TF-IDF,7,D147,Mengungkap Makna Kehormatan di Balik Hiasan Kepala Asmat,0.1037,
+Q8,pakaian adat,TF-IDF,8,D166,Pakaian Adat Dayak Salako: Dari Bahan Alam hingga Upacara Adat,0.1032,✓
+Q8,pakaian adat,TF-IDF,9,D63,"Kain dan Sarung Kresesek, Baju Adat Sumbawa yang Mirip Baju Bodo",0.0999,✓
+Q8,pakaian adat,TF-IDF,10,D33,"Mengenal Suku Saibatin, Pewaris Tradisi Pesisir Lampung",0.0941,
+Q8,pakaian adat,BM25,1,D167,"Keunikan Baju Cele, Pakaian Adat Tradisional dari Maluku",4.1166,✓
+Q8,pakaian adat,BM25,2,D168,"Pakaian Adat Ternate, Cermin Kemegahan Kesultanan Masa Lalu",4.103,✓
+Q8,pakaian adat,BM25,3,D127,Kesederhanaan dan Nilai Luhur dalam Pakaian Adat Suku Baduy,4.0185,✓
+Q8,pakaian adat,BM25,4,D166,Pakaian Adat Dayak Salako: Dari Bahan Alam hingga Upacara Adat,3.972,✓
+Q8,pakaian adat,BM25,5,D62,Pakaian Adat Suku Asmat: Antara Alam dan Manusia Sejati,3.835,✓
+Q8,pakaian adat,BM25,6,D122,"Sangkurat, Rompi Kebesaran Suku Dayak Ngaju",3.824,✓
+Q8,pakaian adat,BM25,7,D147,Mengungkap Makna Kehormatan di Balik Hiasan Kepala Asmat,3.822,
+Q8,pakaian adat,BM25,8,D63,"Kain dan Sarung Kresesek, Baju Adat Sumbawa yang Mirip Baju Bodo",3.8154,✓
+Q8,pakaian adat,BM25,9,D129,Warna-Warna Khas Kain Tenun Suku Baduy,3.7056,
+Q8,pakaian adat,BM25,10,D156,"Kuluk Beselang Mertuo, Penutup Kepala Penuh Makna dari Jambi",3.6729,
+Q9,upacara pernikahan adat,TF-IDF,1,D21,"Upacara Adat Beluluh, Simbol Harapan Orang Tua",0.269,
+Q9,upacara pernikahan adat,TF-IDF,2,D136,"Pengadangan, Tradisi Unik Pernikahan Adat Suku Ogan",0.1887,✓
+Q9,upacara pernikahan adat,TF-IDF,3,D45,Pesona Pernikahan Adat Lampung Melinting yang Sarat Makna,0.1746,✓
+Q9,upacara pernikahan adat,TF-IDF,4,D175,Semarak Festival Erau Di Tenggarong,0.1501,
+Q9,upacara pernikahan adat,TF-IDF,5,D69,Menyaksikan Keunikan Pernikahan Adat Belitung,0.1089,✓
+Q9,upacara pernikahan adat,TF-IDF,6,D135,"Mandi Kasai, Ritual Penyucian Diri di Lubuklinggau",0.1065,
+Q9,upacara pernikahan adat,TF-IDF,7,D284,"Upacara Bubuka, Simbol Keramahan Priangan dalam Menyambut Tamu",0.1064,
+Q9,upacara pernikahan adat,TF-IDF,8,D166,Pakaian Adat Dayak Salako: Dari Bahan Alam hingga Upacara Adat,0.1057,
+Q9,upacara pernikahan adat,TF-IDF,9,D18,Menelusuri Tradisi Bali Aga di Desa Tenganan Pegringsingan,0.1046,
+Q9,upacara pernikahan adat,TF-IDF,10,D33,"Mengenal Suku Saibatin, Pewaris Tradisi Pesisir Lampung",0.099,
+Q9,upacara pernikahan adat,BM25,1,D135,"Mandi Kasai, Ritual Penyucian Diri di Lubuklinggau",6.8065,
+Q9,upacara pernikahan adat,BM25,2,D156,"Kuluk Beselang Mertuo, Penutup Kepala Penuh Makna dari Jambi",6.1708,
+Q9,upacara pernikahan adat,BM25,3,D448,Simbolisme dan Kekuatan Tari Tandok dalam Budaya Suku Batak,5.7853,
+Q9,upacara pernikahan adat,BM25,4,D33,"Mengenal Suku Saibatin, Pewaris Tradisi Pesisir Lampung",5.694,
+Q9,upacara pernikahan adat,BM25,5,D16,Simpolong Tattong: Gaya Sanggul Bugis yang Mewakili Kecantikan dan Kekuatan Wanita Sulawesi Selatan,5.6928,
+Q9,upacara pernikahan adat,BM25,6,D491,"Rindik, Instrumen Bambu dengan Harmoni Khas Bali",5.6624,
+Q9,upacara pernikahan adat,BM25,7,D168,"Pakaian Adat Ternate, Cermin Kemegahan Kesultanan Masa Lalu",5.4097,
+Q9,upacara pernikahan adat,BM25,8,D122,"Sangkurat, Rompi Kebesaran Suku Dayak Ngaju",5.377,
+Q9,upacara pernikahan adat,BM25,9,D6,Falungku: Gelung Tradisional yang Mewakili Keberanian dan Kehormatan Perempuan Rote,5.2649,
+Q9,upacara pernikahan adat,BM25,10,D20,Yadnya Kasada: Ritual Adat Suku Tengger di Gunung Bromo,5.1216,
+Q10,senjata tradisional,TF-IDF,1,D116,"Duhung, Senjata Tertua Suku Dayak Ngaju yang Sarat Legenda",0.4518,✓
+Q10,senjata tradisional,TF-IDF,2,D49,"Senjata Tradisional Suku Asmat, dari Kapak Batu hingga Panah",0.3737,✓
+Q10,senjata tradisional,TF-IDF,3,D350,Sumpit Dayak: Dari Senjata Berburu hingga Simbol Perlawanan,0.1455,✓
+Q10,senjata tradisional,TF-IDF,4,D477,Kehebatan Pedang Bara Sangihe dari Sulawesi Utara,0.108,✓
+Q10,senjata tradisional,TF-IDF,5,D264,"Tari Kabasaran, Tarian Ksatria Minahasa yang Penuh Keberanian",0.0964,
+Q10,senjata tradisional,TF-IDF,6,D61,Mandau: Senjata Tradisional Dayak dan Kekuatan Magisnya,0.0959,✓
+Q10,senjata tradisional,TF-IDF,7,D455,Tari Perang Suku Dani: Pesan Keberanian dari Lembah Baliem,0.0955,
+Q10,senjata tradisional,TF-IDF,8,D260,"Rencong, Senjata Tradisional dari Bumi Serambi Mekah",0.0938,✓
+Q10,senjata tradisional,TF-IDF,9,D382,Durga Mahisasura Mardini: Tafsir Kisah Dewi Durga dalam Tari Bali,0.0929,
+Q10,senjata tradisional,TF-IDF,10,D451,"Sumpit, Dari Senjata Tradisional Hingga Menjadi Ajang Perlombaan",0.092,✓
+Q10,senjata tradisional,BM25,1,D49,"Senjata Tradisional Suku Asmat, dari Kapak Batu hingga Panah",6.4816,✓
+Q10,senjata tradisional,BM25,2,D116,"Duhung, Senjata Tertua Suku Dayak Ngaju yang Sarat Legenda",6.4188,✓
+Q10,senjata tradisional,BM25,3,D477,Kehebatan Pedang Bara Sangihe dari Sulawesi Utara,5.9708,✓
+Q10,senjata tradisional,BM25,4,D350,Sumpit Dayak: Dari Senjata Berburu hingga Simbol Perlawanan,5.9085,✓
+Q10,senjata tradisional,BM25,5,D131,"Kudok, Senjata Tradisional Sumatra Selatan",5.82,✓
+Q10,senjata tradisional,BM25,6,D260,"Rencong, Senjata Tradisional dari Bumi Serambi Mekah",5.7273,✓
+Q10,senjata tradisional,BM25,7,D61,Mandau: Senjata Tradisional Dayak dan Kekuatan Magisnya,5.5843,✓
+Q10,senjata tradisional,BM25,8,D451,"Sumpit, Dari Senjata Tradisional Hingga Menjadi Ajang Perlombaan",5.462,✓
+Q10,senjata tradisional,BM25,9,D335,Mengkreasikan Simbol Kota Bogor Lewat Kerajinan Kujang,5.3977,
+Q10,senjata tradisional,BM25,10,D35,"Kujang, Senjata Tradisional dan Pusaka Budaya Sunda",5.3507,✓
+Q11,tari topeng,TF-IDF,1,D323,"Tari Topeng Tua, Refleksi Lelaki Bali di Usia Senja",0.8454,✓
+Q11,tari topeng,TF-IDF,2,D322,"Topeng Bali, Beragam Karakter dalam Seni Pentas Tradisional",0.8215,✓
+Q11,tari topeng,TF-IDF,3,D271,"Tari Topeng, Permainan Watak Penuh Makna",0.779,✓
+Q11,tari topeng,TF-IDF,4,D336,Menyibak Sisi Gelap Manusia dalam Tari Topeng Kelana Cirebon,0.5914,✓
+Q11,tari topeng,TF-IDF,5,D471,Tari Topeng Temenggung: Simbol Ksatria Gagah dari Cirebon,0.5054,✓
+Q11,tari topeng,TF-IDF,6,D449,"Rancak Denok, Tari Kreasi Semarang dengan Sentuhan Tionghoa",0.5005,✓
+Q11,tari topeng,TF-IDF,7,D399,"Tari Topeng Kemindu, Jejak Akulturasi Seni Tari Jawa di Kutai Kartanegara",0.4382,✓
+Q11,tari topeng,TF-IDF,8,D313,"Tupping, Warisan Patriotisme dalam Seni Topeng Lampung Selatan",0.3518,✓
+Q11,tari topeng,TF-IDF,9,D370,"Tari Topeng Lengger, Seni Penyebar Agama Islam dari Wonosobo",0.3373,✓
+Q11,tari topeng,TF-IDF,10,D498,Kedok Ireng: Topeng Dua Sisi Manusia dalam Tari Jawa Barat,0.2764,✓
+Q11,tari topeng,BM25,1,D323,"Tari Topeng Tua, Refleksi Lelaki Bali di Usia Senja",7.4966,✓
+Q11,tari topeng,BM25,2,D271,"Tari Topeng, Permainan Watak Penuh Makna",7.4594,✓
+Q11,tari topeng,BM25,3,D322,"Topeng Bali, Beragam Karakter dalam Seni Pentas Tradisional",7.3831,✓
+Q11,tari topeng,BM25,4,D449,"Rancak Denok, Tari Kreasi Semarang dengan Sentuhan Tionghoa",7.3719,✓
+Q11,tari topeng,BM25,5,D336,Menyibak Sisi Gelap Manusia dalam Tari Topeng Kelana Cirebon,7.3632,✓
+Q11,tari topeng,BM25,6,D471,Tari Topeng Temenggung: Simbol Ksatria Gagah dari Cirebon,7.3129,✓
+Q11,tari topeng,BM25,7,D370,"Tari Topeng Lengger, Seni Penyebar Agama Islam dari Wonosobo",7.2381,✓
+Q11,tari topeng,BM25,8,D399,"Tari Topeng Kemindu, Jejak Akulturasi Seni Tari Jawa di Kutai Kartanegara",7.2067,✓
+Q11,tari topeng,BM25,9,D498,Kedok Ireng: Topeng Dua Sisi Manusia dalam Tari Jawa Barat,7.0266,✓
+Q11,tari topeng,BM25,10,D430,Ronggeng Blantek: Dari Teater Rakyat ke Tari Kreasi Betawi,6.9475,
+Q12,permainan tradisional anak,TF-IDF,1,D408,"Bedil Jepret, Senapan Bambu dalam Permainan Tradisional Sunda",0.289,✓
+Q12,permainan tradisional anak,TF-IDF,2,D238,Cerita Rakyat Kalimantan Timur: Kisah Pesut Mahakam,0.2873,
+Q12,permainan tradisional anak,TF-IDF,3,D132,"Hadang, Permainan Tradisional Kalimantan Timur yang Unik",0.2722,✓
+Q12,permainan tradisional anak,TF-IDF,4,D318,Filosofi Keseimbangan Hidup dalam Permainan Tradisional Egrang,0.2292,✓
+Q12,permainan tradisional anak,TF-IDF,5,D407,Gasing Panggal: Ketangkasan dalam Permainan Tradisional Sunda,0.1935,✓
+Q12,permainan tradisional anak,TF-IDF,6,D83,"Bambu Gila, Permainan Tradisional Masyarakat Ambon",0.191,✓
+Q12,permainan tradisional anak,TF-IDF,7,D98,Menyelisik Fenomena Anak-Anak Berambut Gimbal di Dieng,0.1831,
+Q12,permainan tradisional anak,TF-IDF,8,D390,"Begasing, Asyiknya Lomba Adu Gasing ala Warga Kutai",0.1717,✓
+Q12,permainan tradisional anak,TF-IDF,9,D231,Cerita Rakyat Papua: Empat Raja,0.1523,
+Q12,permainan tradisional anak,TF-IDF,10,D101,"Susumpitan, Permainan Sumpit dalam Tradisi Sunda",0.1492,✓
+Q12,permainan tradisional anak,BM25,1,D408,"Bedil Jepret, Senapan Bambu dalam Permainan Tradisional Sunda",6.3557,✓
+Q12,permainan tradisional anak,BM25,2,D407,Gasing Panggal: Ketangkasan dalam Permainan Tradisional Sunda,6.1278,✓
+Q12,permainan tradisional anak,BM25,3,D101,"Susumpitan, Permainan Sumpit dalam Tradisi Sunda",5.9325,✓
+Q12,permainan tradisional anak,BM25,4,D390,"Begasing, Asyiknya Lomba Adu Gasing ala Warga Kutai",5.531,✓
+Q12,permainan tradisional anak,BM25,5,D418,"Sejarah dan Ragam Calung, Ikon Budaya Sunda",5.2637,
+Q12,permainan tradisional anak,BM25,6,D300,"Calung Renteng, Wasiat Kebudayaan Agraris",5.2629,
+Q12,permainan tradisional anak,BM25,7,D80,Mengenal Lebih Dekat Tradisi Panjat Pinang di Setu Babakan,5.1475,✓
+Q12,permainan tradisional anak,BM25,8,D475,"Tahuri, Terompet Kerang Khas Maluku",4.8859,
+Q12,permainan tradisional anak,BM25,9,D490,"Salude, Alat Musik Bambu Khas Kepulauan Sangihe",4.8125,
+Q12,permainan tradisional anak,BM25,10,D37,"Membuka Lahan, Mengharap Berkah",4.6475,
+Q13,angklung,TF-IDF,1,D274,Angklung: Dari Tradisi Agraris Jawa Barat hingga Warisan Dunia,0.8066,✓
+Q13,angklung,TF-IDF,2,D403,Angklung: Warisan Budaya Sunda yang Diakui UNESCO,0.6725,✓
+Q13,angklung,TF-IDF,3,D289,"Angklung Buhun, Pengiring Ritual dan Identitas Masyarakat Baduy",0.523,✓
+Q13,angklung,TF-IDF,4,D280,Calung: Merdunya Ketukan Bambu dari Tanah Sunda,0.1776,
+Q13,angklung,TF-IDF,5,D300,"Calung Renteng, Wasiat Kebudayaan Agraris",0.1119,
+Q13,angklung,TF-IDF,6,D433,"Giri Gora Dahuru Daha, Sendratari yang Mengisahkan Calon Arang",0.0941,
+Q13,angklung,TF-IDF,7,D112,"Seren Taun, Tradisi Panen Raya Penuh Makna di Sindang Barang",0.0703,
+Q13,angklung,TF-IDF,8,D110,"Helaran Dongdang, Wujud Pesta Rakyat di Kampung Sindang Barang",0.061,
+Q13,angklung,TF-IDF,9,D501,Kisah Kehidupan Petani Teh Jawa Barat dalam Tari Panarat,0.0569,
+Q13,angklung,TF-IDF,10,D288,"Mengenal Dogdog Lojor, Alat Musik Tradisional Khas Banten",0.0538,
+Q13,angklung,BM25,1,D274,Angklung: Dari Tradisi Agraris Jawa Barat hingga Warisan Dunia,7.2469,✓
+Q13,angklung,BM25,2,D289,"Angklung Buhun, Pengiring Ritual dan Identitas Masyarakat Baduy",7.1175,✓
+Q13,angklung,BM25,3,D403,Angklung: Warisan Budaya Sunda yang Diakui UNESCO,7.1012,✓
+Q13,angklung,BM25,4,D300,"Calung Renteng, Wasiat Kebudayaan Agraris",6.062,
+Q13,angklung,BM25,5,D280,Calung: Merdunya Ketukan Bambu dari Tanah Sunda,6.035,
+Q13,angklung,BM25,6,D433,"Giri Gora Dahuru Daha, Sendratari yang Mengisahkan Calon Arang",5.7289,
+Q13,angklung,BM25,7,D110,"Helaran Dongdang, Wujud Pesta Rakyat di Kampung Sindang Barang",4.8329,
+Q13,angklung,BM25,8,D112,"Seren Taun, Tradisi Panen Raya Penuh Makna di Sindang Barang",4.7494,
+Q13,angklung,BM25,9,D288,"Mengenal Dogdog Lojor, Alat Musik Tradisional Khas Banten",4.6612,
+Q13,angklung,BM25,10,D501,Kisah Kehidupan Petani Teh Jawa Barat dalam Tari Panarat,4.5842,
+Q14,reog,TF-IDF,1,D343,"Reog, Warisan Budaya Ponorogo yang Diakui UNESCO",0.6727,✓
+Q14,reog,TF-IDF,2,D255,"Reog Ponorogo, Dari Simbol Perlawanan ke Warisan Budaya",0.5595,✓
+Q14,reog,TF-IDF,3,D461,Menyaksikan Pertarungan Dua Kubu dalam Reog Rampak Galuh Jati,0.4481,✓
+Q14,reog,TF-IDF,4,D376,"Tari Reogke, Wujud Kritik Bujanganong terhadap Kekuasaan Raja",0.3166,✓
+Q14,reog,TF-IDF,5,D28,Kirab Budaya 100 Tahun Sri Sultan Hamengku Buwono,0.0646,
+Q14,reog,TF-IDF,6,D433,"Giri Gora Dahuru Daha, Sendratari yang Mengisahkan Calon Arang",0.0356,
+Q14,reog,TF-IDF,7,D449,"Rancak Denok, Tari Kreasi Semarang dengan Sentuhan Tionghoa",0.0292,
+Q14,reog,TF-IDF,8,D504,Warok Suromenggolo: Legenda Cinta dan Kesaktian dari Ponorogo,0.0288,
+Q14,reog,TF-IDF,9,D432,"Tari Ambarang, Kisah Pengamen Jaranan di Tulungagung",0.0287,
+Q14,reog,TF-IDF,10,D357,Ludruk: Teater Rakyat Penuh Guyonan dari Jawa Timur,0.015,
+Q14,reog,BM25,1,D343,"Reog, Warisan Budaya Ponorogo yang Diakui UNESCO",8.1002,✓
+Q14,reog,BM25,2,D255,"Reog Ponorogo, Dari Simbol Perlawanan ke Warisan Budaya",8.0059,✓
+Q14,reog,BM25,3,D461,Menyaksikan Pertarungan Dua Kubu dalam Reog Rampak Galuh Jati,7.7679,✓
+Q14,reog,BM25,4,D376,"Tari Reogke, Wujud Kritik Bujanganong terhadap Kekuasaan Raja",7.7296,✓
+Q14,reog,BM25,5,D28,Kirab Budaya 100 Tahun Sri Sultan Hamengku Buwono,5.2189,
+Q14,reog,BM25,6,D504,Warok Suromenggolo: Legenda Cinta dan Kesaktian dari Ponorogo,4.7932,
+Q14,reog,BM25,7,D432,"Tari Ambarang, Kisah Pengamen Jaranan di Tulungagung",4.748,
+Q14,reog,BM25,8,D433,"Giri Gora Dahuru Daha, Sendratari yang Mengisahkan Calon Arang",4.355,
+Q14,reog,BM25,9,D449,"Rancak Denok, Tari Kreasi Semarang dengan Sentuhan Tionghoa",3.8203,
+Q14,reog,BM25,10,D357,Ludruk: Teater Rakyat Penuh Guyonan dari Jawa Timur,3.0936,
+Q15,gamelan,TF-IDF,1,D458,"Gamelan Bali, Ragam Keindahan Selaras Zaman",0.7057,✓
+Q15,gamelan,TF-IDF,2,D283,"Gamelan, Kesenian Adiluhung dari Jawa",0.6847,✓
+Q15,gamelan,TF-IDF,3,D456,Jenis-Jenis Gamelan Sunda dan Asal-usulnya,0.5331,✓
+Q15,gamelan,TF-IDF,4,D424,Menulusuri Tahapan Rumit dalam Pembuatan Gamelan,0.4791,✓
+Q15,gamelan,TF-IDF,5,D428,"Menelusuri Gamelan Sunda: Ciri Khas, Nilai, dan Pelestariannya",0.4622,✓
+Q15,gamelan,TF-IDF,6,D457,"Gamelan Banyuwangi, Iringan Sakral Tari Gandrung",0.174,✓
+Q15,gamelan,TF-IDF,7,D282,Rampak Gendang: Warisan Sunda yang Mendunia,0.1303,
+Q15,gamelan,TF-IDF,8,D295,"Wayang Timplong, Jejak Budaya Nganjuk yang Terancam Punah",0.0766,
+Q15,gamelan,TF-IDF,9,D400,Tari Persembahan Kutai: Warisan Keraton untuk Menyambut Tamu,0.0758,
+Q15,gamelan,TF-IDF,10,D306,"Gamolan Pekhing, Gamelan Bambu dari Lampung Barat",0.0736,✓
+Q15,gamelan,BM25,1,D456,Jenis-Jenis Gamelan Sunda dan Asal-usulnya,4.6194,✓
+Q15,gamelan,BM25,2,D458,"Gamelan Bali, Ragam Keindahan Selaras Zaman",4.6141,✓
+Q15,gamelan,BM25,3,D424,Menulusuri Tahapan Rumit dalam Pembuatan Gamelan,4.5433,✓
+Q15,gamelan,BM25,4,D283,"Gamelan, Kesenian Adiluhung dari Jawa",4.5397,✓
+Q15,gamelan,BM25,5,D428,"Menelusuri Gamelan Sunda: Ciri Khas, Nilai, dan Pelestariannya",4.3884,✓
+Q15,gamelan,BM25,6,D457,"Gamelan Banyuwangi, Iringan Sakral Tari Gandrung",4.2319,✓
+Q15,gamelan,BM25,7,D266,"Legong Lasem, Tari Klasik Bali yang Melegenda",3.9213,
+Q15,gamelan,BM25,8,D306,"Gamolan Pekhing, Gamelan Bambu dari Lampung Barat",3.8741,✓
+Q15,gamelan,BM25,9,D282,Rampak Gendang: Warisan Sunda yang Mendunia,3.8121,
+Q15,gamelan,BM25,10,D382,Durga Mahisasura Mardini: Tafsir Kisah Dewi Durga dalam Tari Bali,3.6509,
+Q16,calung,TF-IDF,1,D418,"Sejarah dan Ragam Calung, Ikon Budaya Sunda",0.8208,✓
+Q16,calung,TF-IDF,2,D300,"Calung Renteng, Wasiat Kebudayaan Agraris",0.8047,✓
+Q16,calung,TF-IDF,3,D280,Calung: Merdunya Ketukan Bambu dari Tanah Sunda,0.6721,✓
+Q16,calung,TF-IDF,4,D375,"Tari Rong Tek, Lengger Banyumasan dalam Wajah Baru",0.0656,
+Q16,calung,TF-IDF,5,D274,Angklung: Dari Tradisi Agraris Jawa Barat hingga Warisan Dunia,0.0654,
+Q16,calung,TF-IDF,6,D276,"Batik Garut, Persembahan dari Swiss Van Java",0.038,
+Q16,calung,TF-IDF,7,D330,Pesona Batik Garut dengan Kekayaan Motifnya,0.0373,
+Q16,calung,TF-IDF,8,D501,Kisah Kehidupan Petani Teh Jawa Barat dalam Tari Panarat,0.0323,
+Q16,calung,TF-IDF,9,D180,"Buku Indonesia: Jantera Bianglala, Pamungkas Trilogi Ronggeng Dukuh Paruk Karya Ahmad Tohari",0.0177,
+Q16,calung,TF-IDF,10,D188,"Buku Indonesia: Lintang Kemukus Dini Hari, Karya Ahmad Tohari",0.0158,
+Q16,calung,BM25,1,D418,"Sejarah dan Ragam Calung, Ikon Budaya Sunda",8.2838,✓
+Q16,calung,BM25,2,D300,"Calung Renteng, Wasiat Kebudayaan Agraris",8.2469,✓
+Q16,calung,BM25,3,D280,Calung: Merdunya Ketukan Bambu dari Tanah Sunda,7.9618,✓
+Q16,calung,BM25,4,D375,"Tari Rong Tek, Lengger Banyumasan dalam Wajah Baru",5.7573,
+Q16,calung,BM25,5,D274,Angklung: Dari Tradisi Agraris Jawa Barat hingga Warisan Dunia,5.2266,
+Q16,calung,BM25,6,D276,"Batik Garut, Persembahan dari Swiss Van Java",5.029,
+Q16,calung,BM25,7,D330,Pesona Batik Garut dengan Kekayaan Motifnya,4.8119,
+Q16,calung,BM25,8,D501,Kisah Kehidupan Petani Teh Jawa Barat dalam Tari Panarat,3.7171,
+Q16,calung,BM25,9,D180,"Buku Indonesia: Jantera Bianglala, Pamungkas Trilogi Ronggeng Dukuh Paruk Karya Ahmad Tohari",2.8094,
+Q16,calung,BM25,10,D188,"Buku Indonesia: Lintang Kemukus Dini Hari, Karya Ahmad Tohari",2.5081,
+Q17,gelung,TF-IDF,1,D12,Gelung Papua: Simbol Keanggunan dan Kreativitas dari Bumi Cenderawasih,0.5525,✓
+Q17,gelung,TF-IDF,2,D13,Gelung Ciwidey: Tatanan Rambut Khas Perempuan Sunda,0.4303,✓
+Q17,gelung,TF-IDF,3,D14,Gelung Ukel Tekuk Solo & Caping Kalo Kudus: Lambang Keanggunan dan Keseimbangan Hidup Perempuan,0.4252,✓
+Q17,gelung,TF-IDF,4,D8,Gelung Timpus: Gaya Rambut ala Suku Batak yang Bersejarah dengan Sentuhan Modern,0.3483,✓
+Q17,gelung,TF-IDF,5,D10,Pusung Tagel: Warisan Tradisi dan Estetika Wanita Bali yang Terjaga,0.2802,✓
+Q17,gelung,TF-IDF,6,D9,Gelung Pingkan: Ikon Kecantikan Perempuan Manado,0.2709,✓
+Q17,gelung,TF-IDF,7,D7,Legan Alan: Gelung Tradisional Flores yang Mewakili Ikatan Budaya dan Kehidupan,0.2398,✓
+Q17,gelung,TF-IDF,8,D15,Tali Kuantan: Gelung Tradisional yang Melambangkan Kebesaran Wanita Kalimantan,0.217,✓
+Q17,gelung,TF-IDF,9,D6,Falungku: Gelung Tradisional yang Mewakili Keberanian dan Kehormatan Perempuan Rote,0.1878,✓
+Q17,gelung,TF-IDF,10,D11,Pesona Abadi Cepol Betawi: Menghubungkan Tren Terkini dengan Tradisi,0.0388,✓
+Q17,gelung,BM25,1,D13,Gelung Ciwidey: Tatanan Rambut Khas Perempuan Sunda,7.3423,✓
+Q17,gelung,BM25,2,D12,Gelung Papua: Simbol Keanggunan dan Kreativitas dari Bumi Cenderawasih,7.3239,✓
+Q17,gelung,BM25,3,D8,Gelung Timpus: Gaya Rambut ala Suku Batak yang Bersejarah dengan Sentuhan Modern,7.238,✓
+Q17,gelung,BM25,4,D14,Gelung Ukel Tekuk Solo & Caping Kalo Kudus: Lambang Keanggunan dan Keseimbangan Hidup Perempuan,7.2343,✓
+Q17,gelung,BM25,5,D10,Pusung Tagel: Warisan Tradisi dan Estetika Wanita Bali yang Terjaga,7.2061,✓
+Q17,gelung,BM25,6,D9,Gelung Pingkan: Ikon Kecantikan Perempuan Manado,7.0607,✓
+Q17,gelung,BM25,7,D7,Legan Alan: Gelung Tradisional Flores yang Mewakili Ikatan Budaya dan Kehidupan,7.0377,✓
+Q17,gelung,BM25,8,D6,Falungku: Gelung Tradisional yang Mewakili Keberanian dan Kehormatan Perempuan Rote,6.7786,✓
+Q17,gelung,BM25,9,D15,Tali Kuantan: Gelung Tradisional yang Melambangkan Kebesaran Wanita Kalimantan,6.7716,✓
+Q17,gelung,BM25,10,D392,Sejarah dan Makna Tari Serimpi Sangupati dari Keraton Jawa,4.0485,
+Q18,ondel ondel,TF-IDF,1,D25,"Ondel-Ondel, Bukan Sekadar Boneka Raksasa",0.9404,✓
+Q18,ondel ondel,TF-IDF,2,D79,Ondel-Ondel Betawi: Dari Penolak Bala ke Simbol Jakarta,0.8485,✓
+Q18,ondel ondel,TF-IDF,3,D273,Menelusuri Lenggak-lenggok Batik Khas Betawi,0.1291,
+Q18,ondel ondel,TF-IDF,4,D164,Kemeriahan Kostum Tradisional dalam Parade Budaya HUT Taman Mini Indonesia Indah,0.1252,
+Q18,ondel ondel,TF-IDF,5,D292,"Sukong, Alat Musik Betawi dengan Akar Tradisi Tionghoa",0.1228,
+Q18,ondel ondel,TF-IDF,6,D367,"Lenggang Nyai, Tari Betawi yang Terinspirasi Kisah Nyai Dasimah",0.1196,
+Q18,ondel ondel,TF-IDF,7,D429,Wayang Golek Betawi: Wayang Sunda Rasa Lenong,0.0402,
+Q18,ondel ondel,BM25,1,D25,"Ondel-Ondel, Bukan Sekadar Boneka Raksasa",18.1622,✓
+Q18,ondel ondel,BM25,2,D79,Ondel-Ondel Betawi: Dari Penolak Bala ke Simbol Jakarta,17.7291,✓
+Q18,ondel ondel,BM25,3,D273,Menelusuri Lenggak-lenggok Batik Khas Betawi,14.7166,
+Q18,ondel ondel,BM25,4,D367,"Lenggang Nyai, Tari Betawi yang Terinspirasi Kisah Nyai Dasimah",13.8578,
+Q18,ondel ondel,BM25,5,D164,Kemeriahan Kostum Tradisional dalam Parade Budaya HUT Taman Mini Indonesia Indah,13.7597,
+Q18,ondel ondel,BM25,6,D292,"Sukong, Alat Musik Betawi dengan Akar Tradisi Tionghoa",13.4154,
+Q18,ondel ondel,BM25,7,D429,Wayang Golek Betawi: Wayang Sunda Rasa Lenong,10.4844,
