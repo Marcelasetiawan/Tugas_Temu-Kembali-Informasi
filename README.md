@@ -4,6 +4,32 @@ Mesin pencari berbasis classical Information Retrieval untuk koleksi **516 artik
 
 Metode ranking: **TF-IDF + Vector Space Model (cosine similarity)** dan **BM25** (k1 = 1,2; b = 0,75), ditambah Boolean retrieval sebagai pelengkap. Semua metode diimplementasikan sendiri dengan Python.
 
+## Alur sistem
+
+```
+Koleksi Dokumen → Prapemrosesan → Indexing → Query Processing → Retrieval → Scoring → Ranking → Top-k → Antarmuka
+```
+
+1. **Prapemrosesan** – case folding, normalisasi, tokenisasi, stopword removal, dan stemming Sastrawi (nama diri tidak di-stem).
+2. **Indexing** – inverted index `term → {doc_id: TF}` (11.639 term dari 516 dokumen).
+3. **Query processing** – query diproses dengan pipeline yang sama dengan dokumen.
+4. **Retrieval** – dokumen kandidat diambil dari postings list term query.
+5. **Scoring & ranking** – skor TF-IDF + cosine similarity atau BM25, diurutkan dari skor terbesar.
+6. **Top-k** – ditampilkan dengan peringkat, judul, URL, skor, dan snippet.
+
+## Ringkasan hasil evaluasi
+
+Rata-rata 18 query uji (12 query umum + 6 query pendek & spesifik), dengan ground truth yang disusun manual:
+
+| Metode | P@5 | R@5 | F1@5 | P@10 | R@10 | F1@10 |
+|---|---|---|---|---|---|---|
+| TF-IDF + Cosine | 0,800 | 0,585 | 0,619 | 0,633 | 0,794 | 0,653 |
+| BM25 | 0,778 | 0,574 | 0,603 | 0,617 | 0,805 | 0,643 |
+
+Kedua metode hampir setara pada koleksi ini. BM25 unggul ketika satu term langka diulang-ulang oleh dokumen yang
+tidak relevan, sedangkan TF-IDF + cosine unggul ketika dokumen relevan tidak memuat semua term query. Analisis
+lengkap ada di notebook dan laporan; nilai per query tersimpan di `evaluation/hasil_evaluasi.csv`.
+
 ## Struktur folder
 
 ```
