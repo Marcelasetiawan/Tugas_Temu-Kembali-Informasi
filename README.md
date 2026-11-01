@@ -7,7 +7,7 @@ Metode ranking: **TF-IDF + Vector Space Model (cosine similarity)** dan **BM25**
 ## Struktur folder
 
 ```
-tugas2_ir/
+tugas2_ir/                             # setelah clone: Tugas_Temu-Kembali-Informasi/
 ├── data/
 │   ├── dataset_crawling_ir.csv        # dataset hasil Tugas 1 (516 dokumen)
 │   └── dataset_preprocessed.csv       # dataset setelah prapemrosesan
@@ -38,18 +38,55 @@ tugas2_ir/
 
 ## Instalasi
 
-Membutuhkan **Python 3.9 atau lebih baru**.
+Membutuhkan **Python 3.9 atau lebih baru** (diuji pada Python 3.10 dan 3.11). Untuk cara clone, dibutuhkan juga
+[Git](https://git-scm.com/downloads).
+
+### Cara 1 – Clone dari GitHub
 
 ```bash
-cd tugas2_ir
-pip install -r requirements.txt
+git clone https://github.com/Marcelasetiawan/Tugas_Temu-Kembali-Informasi.git
+cd Tugas_Temu-Kembali-Informasi
+python -m pip install -r requirements.txt
 ```
 
-Jika di komputer terdapat lebih dari satu versi Python, pastikan `pip` dan `python` yang dipakai berasal dari versi yang sama, misalnya `python -m pip install -r requirements.txt`.
+### Cara 2 – Dari file ZIP
+
+1. Di halaman GitHub repository, klik **Code → Download ZIP** (atau gunakan file ZIP hasil pengumpulan tugas).
+2. Ekstrak file ZIP, lalu buka terminal di folder hasil ekstrak.
+3. Pasang library:
+   ```bash
+   python -m pip install -r requirements.txt
+   ```
+
+### (Opsional) Memakai virtual environment
+
+Agar library project tidak bercampur dengan library Python lain di komputer:
+
+```bash
+python -m venv .venv
+.venv\Scripts\activate          # Windows
+source .venv/bin/activate       # macOS / Linux
+python -m pip install -r requirements.txt
+```
+
+Jika di komputer terdapat lebih dari satu versi Python, selalu pakai `python -m pip ...` (bukan `pip ...` saja)
+agar library terpasang di Python yang sama dengan yang menjalankan program.
 
 ## Cara menjalankan
 
-Semua perintah dijalankan dari dalam folder `tugas2_ir`.
+Semua perintah dijalankan dari **folder project**, yaitu `Tugas_Temu-Kembali-Informasi` (hasil clone) atau
+folder hasil ekstrak ZIP. Folder yang benar adalah folder yang berisi `app.py`, `README.md`, dan folder `src`.
+
+Mesin pencari memiliki **dua antarmuka yang sama-sama bisa dipakai**. Keduanya memakai mesin pencari, data, dan
+metode ranking yang sama; bedanya hanya pada tampilan.
+
+| Antarmuka | Perintah | Tampil di | Cocok untuk |
+|---|---|---|---|
+| Baris perintah (CLI) | `python -m src.search_engine` | Terminal | Mencoba pencarian dengan cepat, hasil berupa tabel teks |
+| Dashboard web | `streamlit run app.py` | Browser (`http://localhost:8501`) | Pencarian dengan tampilan grafis, perbandingan metode, inverted index, evaluasi |
+
+Jika perintah `streamlit` tidak dikenali, jalankan dashboard dengan `python -m streamlit run app.py`.
+Selain itu, notebook `Tugas2_Mesin_Pencari.ipynb` berisi penjelasan dan perhitungan setiap tahap.
 
 ### 1. Notebook (penjelasan lengkap setiap tahap)
 
@@ -99,7 +136,8 @@ dokumen (judul, skor, URL, dan snippet). Jika tidak ada dokumen yang cocok, prog
 streamlit run app.py
 ```
 
-Buka `http://localhost:8501` di browser. Menu di sidebar kiri:
+Tunggu sampai muncul `Local URL: http://localhost:8501`. Browser biasanya terbuka otomatis; jika tidak, buka
+alamat tersebut secara manual. Untuk menghentikan dashboard, tekan **Ctrl+C** di terminal. Menu di sidebar kiri:
 
 | Menu | Isi |
 |---|---|
@@ -117,16 +155,46 @@ Query bisa langsung diisi lewat alamat, misalnya `http://localhost:8501/cari?q=t
 
 Setiap halaman memiliki kotak **"Cara memakai halaman ini"** di bawah judul yang menjelaskan cara memakai dan membaca isinya.
 
-### Menjalankan di Google Colab
+### 4. Menjalankan di Google Colab
 
-1. Kompres folder `tugas2_ir` menjadi `tugas2_ir.zip`, lalu upload ke Colab (panel **Files**).
-2. Jalankan di sel Colab:
-   ```python
-   !unzip -q tugas2_ir.zip
-   %cd tugas2_ir
-   !pip install -q -r requirements.txt
-   ```
-3. Buka dan jalankan `Tugas2_Mesin_Pencari.ipynb`, atau jalankan sel-selnya di notebook Colab.
+**Cara A – clone dari GitHub** (paling mudah). Jalankan di sel Colab:
+
+```python
+!git clone https://github.com/Marcelasetiawan/Tugas_Temu-Kembali-Informasi.git
+%cd Tugas_Temu-Kembali-Informasi
+!pip install -q -r requirements.txt
+```
+
+**Cara B – upload ZIP.** Upload file ZIP project ke panel **Files**, lalu jalankan:
+
+```python
+!unzip -q nama_file.zip -d project
+%cd project
+!pip install -q -r requirements.txt
+```
+
+Sesuaikan `nama_file.zip`, dan jika setelah diekstrak `app.py` berada di dalam subfolder, tambahkan `%cd`
+ke subfolder tersebut.
+
+Setelah itu, mesin pencari bisa dicoba langsung di sel Colab:
+
+```python
+from src.search_engine import SearchEngine, print_result
+
+engine = SearchEngine()
+print_result(engine.search("tari topeng", method="bm25", top_k=5))     # BM25
+print_result(engine.search("tari topeng", method="tfidf", top_k=5))    # TF-IDF + cosine
+```
+
+**Menjalankan notebook lengkap di Colab:**
+
+1. Buka **File → Open notebook → GitHub**, masukkan `Marcelasetiawan/Tugas_Temu-Kembali-Informasi`, lalu pilih
+   `Tugas2_Mesin_Pencari.ipynb`.
+2. Pilih **Runtime → Run all**. Sel persiapan Colab di awal notebook otomatis meng-clone repository dan memasang
+   library, karena notebook membutuhkan modul di folder `src`.
+
+Dashboard Streamlit paling mudah dijalankan di komputer lokal (Cara menjalankan nomor 3), karena Colab tidak
+menyediakan alamat `localhost` yang bisa dibuka langsung di browser.
 
 ## Contoh query
 
@@ -146,7 +214,9 @@ Contoh Boolean retrieval (halaman **Boolean retrieval** di dashboard, notebook, 
 
 | Pesan | Penyebab dan solusi |
 |---|---|
-| `No module named 'src'` | Perintah tidak dijalankan dari folder `tugas2_ir`, atau file dijalankan langsung (`python src/search_engine.py` / tombol ▶ VS Code). Masuk ke folder `tugas2_ir` lalu pakai `python -m src.search_engine`. |
+| `No module named 'src'` | Perintah tidak dijalankan dari folder project (folder yang berisi `app.py` dan `src`), atau file dijalankan langsung (`python src/search_engine.py` / tombol ▶ VS Code). Masuk ke folder project lalu pakai `python -m src.search_engine`. |
+| `'streamlit' is not recognized ...` | Folder Scripts Python tidak ada di PATH. Jalankan dashboard dengan `python -m streamlit run app.py`. |
+| `'git' is not recognized ...` | Git belum terpasang. Pasang dari https://git-scm.com/downloads, atau gunakan Cara 2 (Download ZIP). |
 | `No module named 'pandas'` / `'Sastrawi'` | Perintah `python` memanggil versi Python yang belum dipasangi paket. Jalankan `python -m pip install -r requirements.txt` dengan Python yang sama, atau tulis jalur lengkap Python yang sudah berisi paket. |
 | `'src.search_engine' is not recognized ...` | Bagian depan perintah tertinggal. Ketik lengkap `python -m src.search_engine`. |
 | `Port 8501 is already in use` | Dashboard masih berjalan di terminal lain. Hentikan dengan Ctrl+C di terminal tersebut. |
