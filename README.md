@@ -30,6 +30,11 @@ Kedua metode hampir setara pada koleksi ini. BM25 unggul ketika satu term langka
 tidak relevan, sedangkan TF-IDF + cosine unggul ketika dokumen relevan tidak memuat semua term query. Analisis
 lengkap ada di notebook dan laporan; nilai per query tersimpan di `evaluation/hasil_evaluasi.csv`.
 
+## Laporan
+
+Laporan tugas tidak disimpan di repository ini. Laporan dapat dibuka di
+[folder Google Drive berikut](https://drive.google.com/drive/folders/1LFiDMa0cGN_nhqXaj7izRktCKw9194EZ?usp=sharing).
+
 ## Struktur folder
 
 ```
